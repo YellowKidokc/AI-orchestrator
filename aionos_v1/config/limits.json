@@ -1,0 +1,5 @@
+{
+  "max_cycles": 1,
+  "max_tokens": 4000,
+  "time_budget_minutes": 10
+}
