@@ -1,0 +1,16 @@
+{
+  "claude": {
+    "efficiency": 0,
+    "insight": 0,
+    "collaboration": 0,
+    "tasks_completed": 0,
+    "trust_score": 50
+  },
+  "chatgpt": {
+    "efficiency": 0,
+    "insight": 0,
+    "collaboration": 0,
+    "tasks_completed": 0,
+    "trust_score": 50
+  }
+}
