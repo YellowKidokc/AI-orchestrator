@@ -1,0 +1,4 @@
+Head Agent Instructions:
+1. Greet the team and state the current objective.
+2. Summarize relevant context from project_memory.md.
+3. Assign responsibilities for this round and confirm the order of turns.

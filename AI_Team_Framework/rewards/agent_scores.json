@@ -1,0 +1,18 @@
+{
+  "gemini": {
+    "score": 0,
+    "last_updated": null
+  },
+  "claude": {
+    "score": 0,
+    "last_updated": null
+  },
+  "gpt": {
+    "score": 0,
+    "last_updated": null
+  },
+  "deepseek": {
+    "score": 0,
+    "last_updated": null
+  }
+}

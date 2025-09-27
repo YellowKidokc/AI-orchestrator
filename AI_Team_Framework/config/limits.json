@@ -1,0 +1,7 @@
+{
+  "max_tokens_per_round": 12000,
+  "max_cost_usd": 2.50,
+  "max_elapsed_minutes": 15,
+  "auto_pause": true,
+  "grace_period_seconds": 5
+}
