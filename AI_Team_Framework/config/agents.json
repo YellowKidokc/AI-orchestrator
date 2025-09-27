@@ -1,0 +1,53 @@
+{
+  "agents": [
+    {
+      "id": "gemini",
+      "display_name": "Gemini",
+      "provider": "google",
+      "model": "gemini-1.5-pro",
+      "role": "Head orchestrator and systems manager",
+      "privileges": {
+        "filesystem": true,
+        "applications": ["notepad"],
+        "api_access": true
+      }
+    },
+    {
+      "id": "claude",
+      "display_name": "Claude",
+      "provider": "anthropic",
+      "model": "claude-3-opus",
+      "role": "Research synthesis and critique",
+      "privileges": {
+        "filesystem": false,
+        "applications": [],
+        "api_access": true
+      }
+    },
+    {
+      "id": "gpt",
+      "display_name": "GPT-4",
+      "provider": "openai",
+      "model": "gpt-4.1",
+      "role": "Technical planning and specification",
+      "privileges": {
+        "filesystem": false,
+        "applications": [],
+        "api_access": true
+      }
+    },
+    {
+      "id": "deepseek",
+      "display_name": "DeepSeek",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "role": "Implementation strategist and optimizer",
+      "privileges": {
+        "filesystem": false,
+        "applications": [],
+        "api_access": true
+      }
+    }
+  ],
+  "default_order": ["gemini", "claude", "gpt", "deepseek"]
+}
